@@ -3,6 +3,12 @@
 1. Clonar el repositorio: ```git clone https://github.com/BlackrockDigital/startbootstrap-business-frontpage.git```
 2. Dividir el trabajo en los integrantes del equipo
 3. Cada integrante creará una rama(branch) donde realizará sus cambios
+* Acerca de nosotros
+* Servicios/productos
+* Nuestros clientes
+* Blog
+* Contacto
+
 4. Realizar las peticiones de actualziación(pull request)
 5. Juntar su trabajo en la rama principal(merge)
 
