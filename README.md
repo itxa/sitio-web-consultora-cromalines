@@ -20,7 +20,6 @@
 
 * Contacto
 -   vipatrinf@gmail.com
-
 4. Realizar las peticiones de actualziación(pull request)
 5. Juntar su trabajo en la rama principal(merge)
 
