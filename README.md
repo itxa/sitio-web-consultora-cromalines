@@ -12,7 +12,7 @@
 * Nuestros clientes
     
 
-este producgo esta dirigido principalmente a México ya que tras haber sufrido grandes terremotos y temblores en años anteriores 
+- Este producto esta dirigido principalmente a México ya que tras haber sufrido grandes terremotos y temblores en años anteriores 
 se prevee que las empresas y hogares de los mexicanos cuenten con este dispositvo para optimizar la ayuda de salvar vidas en caso
 de que un fenomeno como estos vuelvan a presentarse, sin embargo con el crecimiento de la empresa se pretende que nuestro producto 
 pueda tener un alcance internacional que permita salvar vidas no solo en México sino en otros paises que tambien son sensibles o con un alto indice de riesgos sismicos
