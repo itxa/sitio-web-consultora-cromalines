@@ -16,7 +16,7 @@
 -   Inversionistas.
 
 * Blog
--   www.cromalines.com
+-   www.cromalines.com.mx
 
 * Contacto
 -   vipatrinf@gmail.com
