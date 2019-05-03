@@ -24,7 +24,7 @@ pueda tener un alcance internacional que permita salvar vidas no solo en México
 -   Inversionistas.
 
 * Blog
--   www.cromalines.com
+-   www.cromalines.com.mx
 
 * Contacto
 -   vipatrinf@gmail.com
