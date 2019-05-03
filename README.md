@@ -28,6 +28,7 @@ pueda tener un alcance internacional que permita salvar vidas no solo en México
 
 * Contacto
 -   vipatrinf@gmail.com
+-   solidsnake0192@gmail.com
 4. Realizar las peticiones de actualziación(pull request)
 5. Juntar su trabajo en la rama principal(merge)
 
