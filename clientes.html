@@ -16,6 +16,8 @@
   <!-- Custom styles for this template -->
   <link href="css/business-frontpage.css" rel="stylesheet">
 
+  <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
+
 </head>
 
 <body>
@@ -29,7 +31,7 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="index.html">Home
               <span class="sr-only">(current)</span>
             </a>
@@ -40,7 +42,7 @@
           <li class="nav-item">
             <a class="nav-link" href="producto.html">producto</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item active">
             <a class="nav-link" href="clientes.html">Nuestros clientes</a>
           </li>
         </ul>
@@ -48,22 +50,25 @@
     </div>
   </nav>
 
-  <!-- Header -->
-  <header class="bg-primary py-5 mb-5">
-    <div class="container h-100">
-      <div class="row h-100 align-items-center">
-        <div class="col-lg-12">
-          <h1 class="display-4 text-white mt-5 mb-2">Minera Frisco</h1>
-          <p class="lead mb-5 text-white-50">Actual mente Minera Frisco en una des las compañías con las que estamos trabajando pertenece a grupo Carso de Carlos Slim, logró el año pasado ventas con valor de 13,859 mdp, por la explotación de 155,000 onzas de oro, 30,000 toneladas de zinc y 121,000 toneladas de cobre, que extrae de los yacimientos de El Coronel en Zacatecas; Asientos, Aguascalientes; y Tayahua, Zacatecas. En total, esta empresa tiene 6,046 trabajadores en sus minas y oficinas.</p>
-          <h1 class="display-4 text-white mt-5 mb-2">Industrias Peñoles</h1>
-          <p class="lead mb-5 text-white-50">De igual manera nos encontramos trabajando con Industrias Peñoles que es el principal productor de zinc en el país, al lograr extraer 205,000 toneladas de cinco yacimientos distintos.</p>
-        </div>
-      </div>
-    </div>
-  </header>
+<h2>DATA</h2>
+<table id="example" class="display" style="width:100%">
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Emprese</th>
+                <th>País de Origen</th>
 
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>No.</th>
+                <th>Emprese</th>
+                <th>País de Origen</th>
 
-  <!-- /.container -->
+            </tr>
+        </tfoot>
+    </table>
 
   <!-- Footer -->
   <footer class="py-5 bg-dark">
@@ -76,6 +81,15 @@
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script type="text/javascript" src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+<script>
+  $(document).ready(function() {
+    $('#example').DataTable( {
+        "ajax": 'datatable/array.txt'
+    } );
+} );
+</script>
 
 </body>
 

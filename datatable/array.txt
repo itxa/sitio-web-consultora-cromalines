@@ -1,0 +1,59 @@
+{
+  "data": [
+    [
+      "1",
+      "AA Mine Holding",
+      "China"
+    ],
+    [
+      "2",
+      " Abot Mining Co",
+      "USA"
+    ],
+    [
+      "3",
+      "Acapulco Gold Corp",
+      "Canada"
+    ],
+    [
+      "4",
+      "Advance Gold Corp",
+      "Canada"
+    ],
+    [
+      "5",
+      "Agnico-Eagle Mines Limited",
+      "Canada"
+    ],
+    [
+      "6",
+      "Alamos Gold Inc.",
+      "Canada"
+    ],
+    [
+      "7",
+      "Alianza Minerals Ltd.",
+      "Canada"
+    ],
+    [
+      "8",
+      "ArcelorMittal Steel Company N.V.",
+      "India"
+    ],
+    [
+      "9",
+      "ARGC Mining Company",
+      "Peru"
+    ],
+    [
+      "10",
+      "Auking Mining Limited",
+      "Australia"
+    ],
+    [
+      "11",
+      "Dowa Holdings Co, Ltd.",
+      "Japon"
+    ]
+  ]
+}
