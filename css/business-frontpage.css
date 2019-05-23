@@ -3,6 +3,36 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-frontpage/blob/master/LICENSE)
  */
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+
 body {
+  font-family: "Montserrat";
   padding-top: 56px;
 }
+
+p {
+  font-family: "Montserrat";
+}
+
+head {
+  font-family: "Montserrat";
+}
+
+h1 {
+  font-family: "Montserrat";
+}
+
+h2 {
+  font-family: "Montserrat";
+}
+
+table {
+  font-family: "Montserrat";
+}
+
+footer {
+  font-family: "Montserrat";
+}
+
