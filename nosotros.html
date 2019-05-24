@@ -62,6 +62,38 @@
     </div>
   </header>
 
+
+  <div class="cont" align="center">
+    <h1>Conoce a las personas detrás de esta gran empresa <3</h1>
+    <p>Puedes contactarnos a través de los siguientes links!</p>
+  </div>
+  
+<div class="row">
+     
+          
+  <script>
+            
+    var integrantes={
+      "integrante1":{"foto":"img/person.png", "nombre":"Cromos", "correo":"vipatrinf@gmail.com", "github":"AndresCro"},
+      "integrante2":{"foto":"img/person.png", "nombre":"David", "correo":"solidsnake0192@gmail.com", "github":"DAVIDHERGO"},
+      "integrante3":{"foto":"img/person.png", "nombre":"Andres", "correo":"andtres.s1997@gmail.com", "github":"andresMolinaMalagon"},
+      "integrante4":{"foto":"img/person.png", "nombre":"Leonardo", "correo":"ddfdf@gmail.com", "github":"ruso"},
+      "integrante5":{"foto":"img/person.png", "nombre":"miguel", "correo":"blackfirehawk00@gmail.com", "github":"MikeDevil"},
+      "integrante6":{"foto":"img/person.png", "nombre":"German", "correo":"jackarquero@gmail.com@gmail.com", "github":"Pigmask"}
+    }
+    for (contador in integrantes) {
+      var foto = document.getElementsByClassName("fotoIntegrante");   
+      foto.innerHTML = document.write("<div class='col-md-4 mb-5'> <div class='card h-100'> <img class='card-img-top' src='"+integrantes[contador].foto+"'> ");
+      var nombre = document.getElementsByClassName("nombreIntegrante");
+      nombre.innerHTML = document.write("<div class='card-body'> <h3>Nombre: "+integrantes[contador].nombre+"</h3>");
+      var correo = document.getElementsByClassName("correoIntegrante");
+      correo.innerHTML = document.write("<h4>Correo: <a href='mailto:"+integrantes[contador].correo+"'>"+integrantes[contador].correo+ "</a></h4>");
+      var github = document.getElementsByClassName("githubIntegrante");
+      github.innerHTML = document.write("<h4>Github: <a href='https://www.github.com/"+integrantes[contador].github+"'>@"+integrantes[contador].github+"</a> </h4></div><hr mt-5></div></div>");
+    }
+          </script>
+</div>
+
   <!-- Footer -->
   <footer class="py-5 bg-dark">
     <div class="container">
